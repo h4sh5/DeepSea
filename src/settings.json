@@ -314,13 +314,13 @@
                 }
             ]
         },
-        "sysftpdlight": {
+        "sysftpd": {
             "repo": "cathery/sys-ftpd",
-            "regex": [".*sys-ftpd-light.*\\.zip"],
+            "regex": [".*sys-ftpd.*\\.zip"],
             "steps": [
                 {
                     "name": "extract",
-                    "arguments": [".*sys-ftpd-light.*\\.zip"]
+                    "arguments": [".*sys-ftpd.*\\.zip"]
                 },
                 {
                     "name": "delete",
